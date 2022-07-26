@@ -1,0 +1,24 @@
+// Лого
+.logo {
+    display: block;
+
+    font-family: var(--font-family-logo);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+
+    color: var(--color-logo-second-header);
+
+    &__initial {
+        color: var(--color-logo-first);
+    }
+
+    &--inverse-color {
+        color: var(--color-logo-second-footer);
+    }
+
+    &--positioning {
+        margin-bottom: 20px;
+    }
+}

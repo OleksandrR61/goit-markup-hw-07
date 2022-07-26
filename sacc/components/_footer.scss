@@ -1,0 +1,29 @@
+// Футер страницы
+.footer {
+    padding: 60px 0px;
+
+    background-color: var(--color-background-secondary);
+
+    font-size: 14px;
+    line-height: 1.714;
+
+    &--gap {
+        margin-right: auto;
+    }
+    
+    &__body {
+        display: flex;
+    }
+
+    &__title {
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--color-text-address);
+
+        &--positioning {
+            margin-bottom: 20px;
+        }
+    }
+}

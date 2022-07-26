@@ -1,0 +1,50 @@
+// Шапка страницы
+.header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+
+    border-bottom: 1px solid var(--color-border-header);
+
+    &__contact {
+        display: flex;
+        align-items: center;
+        
+        letter-spacing: 0.02em;
+
+        color: var(--color-link-contact-header);
+
+        &--positioning:not(:last-child) {
+            margin-right: 50px;
+        }
+    }
+    
+    &__icon {
+        fill: var(--color-icon-header);
+        
+        transition: fill var(--transition-duration) var(--transition-timing-function);
+
+        .link:hover &,
+        .link:focus &,
+        .link:visited & {
+            fill: currentColor;
+        }
+
+        &--positioning {
+            margin-right: 10px;
+        }
+    }
+    
+    &__container {
+        display: flex;
+        align-items: center;
+        
+        height: 80px;
+    }
+
+    &__logo {
+        &--positioning {
+            margin-right: 93px;
+        }
+    }
+}

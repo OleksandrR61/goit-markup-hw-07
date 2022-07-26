@@ -1,0 +1,20 @@
+// Адрессный блок
+.address {
+    color: var(--color-text-address);
+
+    font-style: normal;
+
+    &--positioning {
+        margin-right: 70px;
+    }
+
+    &__item {
+        &--positioning {
+            margin-bottom: 9px;
+        }
+    }
+
+    &__contact {
+        color: var(--color-link-contact-footer);
+    }
+}
